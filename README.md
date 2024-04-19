@@ -12,6 +12,7 @@ This is a sample project and a basic tier of Azure AI Search does run about $75 
 
 ## Architecture Diagram
 ![Architecture Diagram](Assets/Arch.png)
+
 Here is a sample architecture diagram. The challenge section of this will be replacing the logic app section. You can use any rest client or framework you want to use to call our APIs Azure will give us! Knowing that all we can use Azd up to create a resource group, Azure AI Services, Azure OpenAI, and an Azure Storage Account! 
 
 ##### Small Challenge
