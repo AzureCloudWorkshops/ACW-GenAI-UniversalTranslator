@@ -2,14 +2,18 @@ Keys for Neb Code
 Search Index Creds:
 URL: https://searchfornebgroup.search.windows.net
 Key: cMDqGsfTuNcHhKyJpj1PC8ApjedRo57HcouQCXaKtxAzSeCrG1oB
+Region: westcentralus
 
 Translate Creds:
 URL: https://api.cognitive.microsofttranslator.com/
 Key: 7677c15821db4449a6db11821eb9b414
+Region: eastus
 
 Open AI: 
 URL: https://openaineb2.openai.azure.com/
 Key: eaced5fcd8b144fab78ae0a297765377
+Region: eastus
+Deployment Name: Gpt-35
 
 
 # ACW-GenAI-UniversalTranslator
