@@ -3,6 +3,7 @@ Search Index Creds:
 - URL: https://searchfornebgroup.search.windows.net
 - Key: cMDqGsfTuNcHhKyJpj1PC8ApjedRo57HcouQCXaKtxAzSeCrG1oB
 - Region: westcentralus
+- Index Name: azureblob-index
 
 Translate Creds:
 - URL: https://api.cognitive.microsofttranslator.com
