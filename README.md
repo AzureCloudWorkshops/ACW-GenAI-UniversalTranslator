@@ -1,23 +1,3 @@
-Keys for Neb Code
-Search Index Creds:
-- URL: https://searchfornebgroup.search.windows.net
-- Key: cMDqGsfTuNcHhKyJpj1PC8ApjedRo57HcouQCXaKtxAzSeCrG1oB
-- Region: westcentralus
-- Index Name: azureblob-index
-
-Translate Creds:
-- URL: https://api.cognitive.microsofttranslator.com
-- Key: 7677c15821db4449a6db11821eb9b414
-- Region: eastus
-
-Open AI: 
-- URL: https://openaineb2.openai.azure.com
-- Key: eaced5fcd8b144fab78ae0a297765377
-- Region: eastus
-- Deployment Name: Gpt-35
-- api-version: 2024-02-15-preview
-
-
 # ACW-GenAI-UniversalTranslator
 In this exercise we are going to walkthrough building a universal translator in C# to take an input in any language and output it in English. We will continue this process with our own documents to use retrieval augmented generation (RAG) to get a printer manual to every language in Azure! This example document is owned and produced by Epson. It just so happens to be a printer I own and have the manual for. You can use this example for any document you have access to just throw it into the example every time you see Epson.
 
