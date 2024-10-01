@@ -142,3 +142,14 @@ If you are still stuck don't worry! Check out THIRD API CALL in SampleConsoleApp
 
 ## Conclusion
 You are now able to build a universal translator to get any language in and back out in your rest client of choice. If you are using my sample app you now have a console app and an example on how you can bring AI into you C# code! 
+
+## Running the Program with a Command Line Argument
+The program now accepts a command line argument for the phrase to be translated. If no command line argument is provided, the program will use a default phrase.
+
+### Example Command
+```bash
+dotnet run --project SampleConsoleApp "Your phrase to be translated"
+```
+
+### Default Phrase
+If no command line argument is provided, the program will use the default phrase: "Boutons et voyants du panneau de commande\n".
