@@ -15,7 +15,7 @@ class Program
     static readonly HttpClient client3 = new();
     static IConfiguration? Configuration { get; set; }
 
-    static async Task Main()
+    static async Task Main(string[] args)
     {
         var builder = new ConfigurationBuilder()
             .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
@@ -26,9 +26,12 @@ class Program
         // Add headers
         client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", Configuration["Ocp-Apim-Subscription-Key"]);
         client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Region", Configuration["Ocp-Apim-Subscription-Region"]);
+
+        // Determine the phrase to be translated
+        string phrase = args.Length > 0 ? args[0] : "Boutons et voyants du panneau de commande\n";
+
         // Create body
-        // Change me to ask a new question!
-        var body = new[] { new { Text = "Boutons et voyants du panneau de commande\n" } };
+        var body = new[] { new { Text = phrase } };
         var content = new StringContent(JsonSerializer.Serialize(body), Encoding.UTF8, "application/json");
 
         // FIRST API CALL
