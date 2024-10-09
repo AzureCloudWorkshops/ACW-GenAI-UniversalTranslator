@@ -113,7 +113,7 @@ Now that we have our resources created we will need to create a rest client to c
 ```
 </details>
 
-If you are still stuck don't worry! Check out FIRST API CALL in SampleConsoleApp/Program.cs in the code folder for a sample implementation.
+If you are still stuck don't worry! Check out FIRST API CALL in SampleConsoleAppGo/main.go in the code folder for a sample implementation.
 
 ## Challenge 4
 Now we need to make a rest call to our Azure OpenAI service giving it access to our data in Azure Search. We are going to pass the result from Challenge 3 into the content section of our call. 
@@ -123,7 +123,7 @@ Now we need to make a rest call to our Azure OpenAI service giving it access to 
   Here is the docs for Azure OpenAI specifically the [extensions API.](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference?WT.mc_id=AZ-MVP-5005115#azure-ai-search)
 </details>
 
-If you can't figure it out checkout SECOND API CALL in SampleConsoleApp/Program.cs in the code folder for a sample implementation.
+If you can't figure it out checkout SECOND API CALL in SampleConsoleAppGo/main.go in the code folder for a sample implementation.
 
 ## Challenge 5
 Now we should have our data back from our document and we can translate it back from the language we first received. We will need to call Azure AI Services again to translate it back to the language we received in the first call.
