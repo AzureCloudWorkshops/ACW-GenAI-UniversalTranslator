@@ -1,15 +1,14 @@
-Keys for Neb Code
-Search Index Creds:
-URL: https://searchfornebgroup.search.windows.net
-Key: cMDqGsfTuNcHhKyJpj1PC8ApjedRo57HcouQCXaKtxAzSeCrG1oB
-
-Translate Creds:
-URL: https://api.cognitive.microsofttranslator.com/
-Key: 7677c15821db4449a6db11821eb9b414
-
-Open AI: 
-URL: https://openaineb2.openai.azure.com/
-Key: eaced5fcd8b144fab78ae0a297765377
+{
+  "Ocp-Apim-Subscription-Key": "cc8c9c8152f14f169694366847a86d1d",
+  "Ocp-Apim-Subscription-Region": "eastus",
+  "AzureTranslateURL": "https://eastus.api.cognitive.microsoft.com/translator/text/v3.0/translate",
+  "YOUR_DEPLOYMENT_NAME": "gpt-4o-mini",
+  "YOUR_RESOURCE_NAME": "https://eastusaiforworkshop.openai.azure.com",
+  "api-key": "e3aae9d9a652421687c4cceccc2f91e2",
+  "endpoint": "https://aisearchfordemo.search.windows.net",
+  "key": "uxw5r9Nvwxdumirxg6f1Xi6xbytxDDwqXvo5Tbcj4CAzSeDqq2kB",
+  "indexName": "azureblob-index"
+}
 
 # ACW-GenAI-UniversalTranslator
 In this exercise we are going to walkthrough building a universal translator in C# to take an input in any language and output it in English. We will continue this process with our own documents to use retrieval augmented generation (RAG) to get a printer manual to every language in Azure! This example document is owned and produced by Epson. It just so happens to be a printer I own and have the manual for. You can use this example for any document you have access to just throw it into the example every time you see Epson.
