@@ -167,3 +167,14 @@ dotnet run --project SampleConsoleApp "Your phrase to be translated"
 
 ### Default Phrase
 If no command line argument is provided, the program will use the default phrase: "Boutons et voyants du panneau de commande\n".
+
+## Running the Program with a Command Line Argument (Javascript Version)
+The Javascript version of the program also accepts a command line argument for the phrase to be translated. If no command line argument is provided, the program will use a default phrase.
+
+### Example Command
+```bash
+node SampleConsoleAppJS/Program.js "Your phrase to be translated"
+```
+
+### Default Phrase
+If no command line argument is provided, the program will use the default phrase: "Boutons et voyants du panneau de commande\n".

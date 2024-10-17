@@ -1,0 +1,11 @@
+{
+  "Ocp-Apim-Subscription-Key": "cc8c9c8152f14f169694366847a86d1d",
+  "Ocp-Apim-Subscription-Region": "eastus",
+  "AzureTranslateURL": "https://eastus.api.cognitive.microsoft.com/translator/text/v3.0/translate",
+  "YOUR_DEPLOYMENT_NAME": "gpt-4o-mini",
+  "YOUR_RESOURCE_NAME": "https://eastusaiforworkshop.openai.azure.com",
+  "api-key": "e3aae9d9a652421687c4cceccc2f91e2",
+  "endpoint": "https://aisearchfordemo.search.windows.net",
+  "key": "uxw5r9Nvwxdumirxg6f1Xi6xbytxDDwqXvo5Tbcj4CAzSeDqq2kB",
+  "indexName": "azureblob-index"
+}
