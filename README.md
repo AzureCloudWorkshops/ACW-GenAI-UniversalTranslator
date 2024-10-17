@@ -1,3 +1,4 @@
+```
 {
   "Ocp-Apim-Subscription-Key": "cc8c9c8152f14f169694366847a86d1d",
   "Ocp-Apim-Subscription-Region": "eastus",
@@ -9,6 +10,7 @@
   "key": "uxw5r9Nvwxdumirxg6f1Xi6xbytxDDwqXvo5Tbcj4CAzSeDqq2kB",
   "indexName": "azureblob-index"
 }
+```
 
 # ACW-GenAI-UniversalTranslator
 In this exercise we are going to walkthrough building a universal translator in C# to take an input in any language and output it in English. We will continue this process with our own documents to use retrieval augmented generation (RAG) to get a printer manual to every language in Azure! This example document is owned and produced by Epson. It just so happens to be a printer I own and have the manual for. You can use this example for any document you have access to just throw it into the example every time you see Epson.
