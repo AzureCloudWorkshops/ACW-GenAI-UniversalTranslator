@@ -110,8 +110,20 @@ Now that we have our resources created we will need to create a rest client to c
 </details>
 
 <details><summary>Hint 2</summary>
+  URL Doesn't work anymore but good for inspiration use this URL format instead
+  <your api url>/translate?api-version=3.0&to=en
 
   ![Translate API](https://www.azurebarista.com/static/5532c4aa5fc87effedfea3e641d42eb6/12c06/TranslateAndSet.png)
+</details>
+
+<details><summary>Hint 3</summary>
+  Example body should look like the following
+
+  ```json
+[
+    {"Text":"I would really like to drive your car around the block a few times."}
+]
+```
 </details>
 
 If you are still stuck don't worry! Check out FIRST API CALL in SampleConsoleApp/Program.cs in the code folder for a sample implementation.
@@ -143,3 +155,14 @@ If you are still stuck don't worry! Check out THIRD API CALL in SampleConsoleApp
 
 ## Conclusion
 You are now able to build a universal translator to get any language in and back out in your rest client of choice. If you are using my sample app you now have a console app and an example on how you can bring AI into you C# code! 
+
+## Running the Program with a Command Line Argument
+The program now accepts a command line argument for the phrase to be translated. If no command line argument is provided, the program will use a default phrase.
+
+### Example Command
+```bash
+dotnet run --project SampleConsoleApp "Your phrase to be translated"
+```
+
+### Default Phrase
+If no command line argument is provided, the program will use the default phrase: "Boutons et voyants du panneau de commande\n".
