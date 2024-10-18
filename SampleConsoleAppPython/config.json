@@ -1,11 +1,11 @@
 {
-  "Ocp-Apim-Subscription-Key": "Ocp-Apim-Subscription-Key",
-  "Ocp-Apim-Subscription-Region": "Ocp-Apim-Subscription-Region",
-  "AzureTranslateURL": "AzureTranslateURL",
+  "Ocp-Apim-Subscription-Key": "YOUR_SUBSCRIPTION_KEY",
+  "Ocp-Apim-Subscription-Region": "YOUR_SUBSCRIPTION_REGION",
+  "AzureTranslateURL": "YOUR_AZURE_TRANSLATE_URL",
   "YOUR_DEPLOYMENT_NAME": "YOUR_DEPLOYMENT_NAME",
   "YOUR_RESOURCE_NAME": "YOUR_RESOURCE_NAME",
-  "api-key": "api-key",
-  "endpoint": "YOUR_AZURE_COGNITIVE_SEARCH_ENDPOINT",
-  "key": "YOUR_AZURE_COGNITIVE_SEARCH_KEY",
-  "indexName": "YOUR_AZURE_COGNITIVE_SEARCH_INDEX_NAME"
+  "api-key": "YOUR_API_KEY",
+  "endpoint": "YOUR_ENDPOINT",
+  "key": "YOUR_KEY",
+  "indexName": "YOUR_INDEX_NAME"
 }
