@@ -1,14 +1,14 @@
 ```
 {
-  "Ocp-Apim-Subscription-Key": "cc8c9c8152f14f169694366847a86d1d",
-  "Ocp-Apim-Subscription-Region": "eastus",
-  "AzureTranslateURL": "https://eastus.api.cognitive.microsoft.com/translator/text/v3.0/translate",
-  "YOUR_DEPLOYMENT_NAME": "gpt-4o-mini",
-  "YOUR_RESOURCE_NAME": "https://eastusaiforworkshop.openai.azure.com",
-  "api-key": "e3aae9d9a652421687c4cceccc2f91e2",
-  "endpoint": "https://aisearchfordemo.search.windows.net",
-  "key": "uxw5r9Nvwxdumirxg6f1Xi6xbytxDDwqXvo5Tbcj4CAzSeDqq2kB",
-  "indexName": "azureblob-index"
+  "Ocp-Apim-Subscription-Key": "YOUR_SUBSCRIPTION_KEY",
+  "Ocp-Apim-Subscription-Region": "YOUR_SUBSCRIPTION_REGION",
+  "AzureTranslateURL": "YOUR_AZURE_TRANSLATE_URL",
+  "YOUR_DEPLOYMENT_NAME": "YOUR_DEPLOYMENT_NAME",
+  "YOUR_RESOURCE_NAME": "YOUR_RESOURCE_NAME",
+  "api-key": "YOUR_API_KEY",
+  "endpoint": "YOUR_ENDPOINT",
+  "key": "YOUR_KEY",
+  "indexName": "YOUR_INDEX_NAME"
 }
 ```
 
