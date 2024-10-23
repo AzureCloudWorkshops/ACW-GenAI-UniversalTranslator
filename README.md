@@ -1,14 +1,14 @@
 ```
 {
-  "Ocp-Apim-Subscription-Key": "YOUR_SUBSCRIPTION_KEY",
-  "Ocp-Apim-Subscription-Region": "YOUR_SUBSCRIPTION_REGION",
-  "AzureTranslateURL": "YOUR_AZURE_TRANSLATE_URL",
-  "YOUR_DEPLOYMENT_NAME": "YOUR_DEPLOYMENT_NAME",
-  "YOUR_RESOURCE_NAME": "YOUR_RESOURCE_NAME",
-  "api-key": "YOUR_API_KEY",
-  "endpoint": "YOUR_ENDPOINT",
-  "key": "YOUR_KEY",
-  "indexName": "YOUR_INDEX_NAME"
+  "Ocp-Apim-Subscription-Key": "6ee845cf25df4da5a681db3343db93b5",
+  "Ocp-Apim-Subscription-Region": "eastus",
+  "AzureTranslateURL": "https://eastus.api.cognitive.microsoft.com/translator/text/v3.0/translate",
+  "YOUR_DEPLOYMENT_NAME": "gpt-4o-mini",
+  "YOUR_RESOURCE_NAME": "https://eastus.api.cognitive.microsoft.com",
+  "api-key": "028c344cc330478aaee9354e5354d765",
+  "endpoint": "https://testaisearchforkalsec.search.windows.net",
+  "key": "0rX1auYSwnXNn6Ct8egZPmb2ndmKBZ9szazYfMN7faAzSeDS9KHs",
+  "indexName": "azureblob-index"
 }
 ```
 
