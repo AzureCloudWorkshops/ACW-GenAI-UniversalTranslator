@@ -1,0 +1,11 @@
+{
+  "Ocp-Apim-Subscription-Key": "YOUR_SUBSCRIPTION_KEY",
+  "Ocp-Apim-Subscription-Region": "YOUR_SUBSCRIPTION_REGION",
+  "AzureTranslateURL": "YOUR_AZURE_TRANSLATE_URL",
+  "YOUR_DEPLOYMENT_NAME": "YOUR_DEPLOYMENT_NAME",
+  "YOUR_RESOURCE_NAME": "YOUR_RESOURCE_NAME",
+  "api-key": "YOUR_API_KEY",
+  "endpoint": "YOUR_ENDPOINT",
+  "key": "YOUR_KEY",
+  "indexName": "YOUR_INDEX_NAME"
+}
